@@ -17,12 +17,12 @@ class kmeans(object):
     --------
     Examples
     --------
-    from sklearn import cluster, datasets
     import numpy as np
-    iris = datasets.load_iris()
+    from sklearn.datasets import load_iris
+    iris= load_iris()
     X = iris.data    
     model = kmeans(3, random_state=0)
-    model.fit(X)
+    model = model.fit(X)
     labels = np.array(model.labels)
     print(labels)
 
@@ -54,7 +54,8 @@ class kmeans(object):
             old_centroids = np.copy(self.centroids)            
             self.labels = list(map(self._assign_clusters, X)) # E step
             self.centroids = self._update_centroids() # M step
-        
+        return self
+    
     def _init_centroids(self):
         """ Random Choose K points as initial centroids        
         """

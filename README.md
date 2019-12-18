@@ -11,5 +11,10 @@ Building Machine Learning Models with Numpy
 - Supervised Model
   - KNN
   - Decision Tree
+    - CART    (Weighted Gini Impurity)
+    - Entropy (Information Gain: Entropy Decrease)
+    - C4.5    (Gain Ratio)
 - Unsupervised Model
   - K-Means
+    - ordinary k-means
+    - binary k-means

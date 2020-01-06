@@ -4,19 +4,19 @@ Building Machine Learning Models with Numpy
 ## Contents
 ### Machine Learning Models
 #### Supervised Learning
-  - Linear Regression
+  - [Linear Regression]((https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py))
     - Normal Equation
-      - [OLS](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Ordinary Least Squares)
+      - OLS (Ordinary Least Squares)
       - Lasso Regression
-      - [Ridge Regression](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py)
+      - Ridge Regression
     - Gradient Descent
-      - [BGD](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Batch Gradient Descent)
-      - [SGD](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Stochastic Gradient Descent)
-      - [Mini-Batch Gradient Descent](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py)
-      - [Coordinate Descent](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) for Lasso Regression
+      - BGD (Batch Gradient Descent)
+      - SGD (Stochastic Gradient Descent)
+      - Mini-Batch Gradient Descent
+      - Coordinate Descent (Lasso Regression)
+  - Logistic Regression
   - Naive Bayes
   - SVM
-  - Logistic Regression
   - [KNN](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/knn.py)
   - [Decision Tree](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/tree.py)
     - CART    (Using Weighted Gini Impurity)

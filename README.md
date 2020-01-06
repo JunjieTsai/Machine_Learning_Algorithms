@@ -4,7 +4,7 @@ Building Machine Learning Models with Numpy
 ## Contents
 ### Machine Learning Models
 #### Supervised Learning
-  - [Linear Regression]((https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py))
+  - [Linear Regression](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py)
     - Normal Equation
       - OLS (Ordinary Least Squares)
       - Lasso Regression

@@ -4,15 +4,19 @@ Building Machine Learning Models with Numpy
 ## Contents
 ### Machine Learning Models
 #### Supervised Learning
-  - OLS (Ordinary Least Squares)
-  - Lasso Regression
-  - Ridge Regression
+  - [OLS](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Ordinary Least Squares)
+  - [Lasso Regression](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py)
+  - [Ridge Regression](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py)
+  - [Gradient Descent](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py)
+    - [BGD](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Batch Gradient Descent)
+    - [SGD](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Stochastic Gradient Descent)
+    - Mini-Batch Gradient Descent
   - Naive Bayes
   - SVM
   - Logistic Regression
-  - *[KNN](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/knn.py)
-  - *[Decision Tree](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/tree.py)
-    - *CART    (Using Weighted Gini Impurity)
+  - [KNN](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/knn.py)
+  - [Decision Tree](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/tree.py)
+    - CART    (Using Weighted Gini Impurity)
     - Entropy (Using Information Gain: Entropy Decrease)
     - C4.5    (Using Gain Ratio)
   - Ensemble Trees
@@ -29,7 +33,7 @@ Building Machine Learning Models with Numpy
     - LSTM (Long Short-Term Memory)
 
 #### Unsupervised Learning
-  - *[K-Means](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/kmeans.py)
+  - [K-Means](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/kmeans.py)
     - ordinary k-means
     - binary k-means
   - Hierarchical clustering

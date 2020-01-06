@@ -4,13 +4,16 @@ Building Machine Learning Models with Numpy
 ## Contents
 ### Machine Learning Models
 #### Supervised Learning
-  - [OLS](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Ordinary Least Squares)
-  - [Lasso Regression](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py)
-  - [Ridge Regression](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py)
-  - [Gradient Descent](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py)
-    - [BGD](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Batch Gradient Descent)
-    - [SGD](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Stochastic Gradient Descent)
-    - Mini-Batch Gradient Descent
+  - Linear Regression
+    - Normal Equation
+      - [OLS](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Ordinary Least Squares)
+      - Lasso Regression
+      - [Ridge Regression](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py)
+    - Gradient Descent
+      - [BGD](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Batch Gradient Descent)
+      - [SGD](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Stochastic Gradient Descent)
+      - [Mini-Batch Gradient Descent](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py)
+      - [Coordinate Descent](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) for Lasso Regression
   - Naive Bayes
   - SVM
   - Logistic Regression

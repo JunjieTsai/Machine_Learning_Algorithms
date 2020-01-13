@@ -5,21 +5,23 @@ Building Machine Learning Models with Numpy
 ### Machine Learning Models
 #### Supervised Learning
   - [Linear Regression](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py)
-    - Normal Equation
-      - OLS (Ordinary Least Squares)
-      - Lasso Regression
-      - Ridge Regression
+    - Normal Equation (Closed Form Solution)
+      - [OLS](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Ordinary Least Squares)
+      - [Ridge Regression](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (L2 regulation)
     - Gradient Descent
-      - BGD (Batch Gradient Descent)
-      - SGD (Stochastic Gradient Descent)
-      - Mini-Batch Gradient Descent
-      - Coordinate Descent (Lasso Regression)
+      - [BGD](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Batch Gradient Descent)
+      - [SGD](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Stochastic Gradient Descent)
+      - [MBGD](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Mini-Batch Gradient Descent)
+      - [CD](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/linear_model.py) (Coordinate Descent, Lasso Regression (L1 regulation))
+    - SVD Decomposition
+  - Polynomial Regression  
+      Apply polynomial feature processing to the datasets and then fit a linear regression
   - Logistic Regression
-  - Naive Bayes
+  - Naïve Bayes
   - SVM
   - [KNN](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/knn.py)
   - [Decision Tree](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/tree.py)
-    - CART    (Using Weighted Gini Impurity)
+    - [CART](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/tree.py)    (Using Weighted Gini Impurity)
     - Entropy (Using Information Gain: Entropy Decrease)
     - C4.5    (Using Gain Ratio)
   - Ensemble Trees
@@ -37,7 +39,7 @@ Building Machine Learning Models with Numpy
 
 #### Unsupervised Learning
   - [K-Means](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/kmeans.py)
-    - ordinary k-means
+    - [ordinary k-means](https://github.com/JunjieTsai/Machine_Learning_Algorithms/blob/master/kmeans.py)
     - binary k-means
   - Hierarchical clustering
     - Ward linkage
